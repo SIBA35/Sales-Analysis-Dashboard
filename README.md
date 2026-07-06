@@ -30,18 +30,21 @@ The report uses a simple two-table model:
 - **DAX** – calculated measures (Total Revenue, Total Profit, Avg Order Value, etc.)
 - **Power Query** – data loading and transformation
 
+
 ## 📁 Repository Structure
 
 ```
 sales-dashboard-analysis/
 ├── Sales_Dashboard_Analysis.pbix   # Power BI report file
+└── Raw Data                        # Excel raw data
 └── README.md                       # Project documentation
-└── Raw Data.xlsx
+```
 
 ## 📌 Notes
 
 - This is a `.pbix` file, so it can only be opened and edited using Power BI Desktop.
 - If your dataset is large or sensitive, consider excluding raw data files from the repo (see `.gitignore` suggestions below) and only sharing the report structure.
+
 
 ## 📄 License
 
